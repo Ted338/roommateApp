@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Sample
+	</title>
+</head>
+<body>
+<form action="detailsEntry.php" method="post">
+	<table border="1">
+		<tr>
+			<td><label>Enter Royal id</label></td>
+			<td><input type="text" name="student_id"></td>
+		</tr>
+		<tr>
+			<td><label>Enter first name</label></td>
+			<td><input type="text" name="student_namef"></td>
+		</tr>	
+		<tr>
+			<td><label>Enter last name</label></td>
+			<td><input type="text" name="student_namel"></td>
+		</tr>
+		<tr>
+			<td><label>Enter age</label></td>
+			<td><input type="number" name="age"></td>
+		</tr>
+		<tr>
+			<td><label>Enter gender</label></td>
+			<td><input type="radio" name="gender" value="male">Male
+			<input type="radio" name="gender" value="female">Female
+			<input type="radio" name="gender" value="non-binary">Non-Binary</td>
+		</tr>
+		<tr>
+			<td><label>Enter hometown</label></td>
+			<td><input type="text" name="location_home"></td>
+		</tr>
+		<tr>
+			<td><label>Enter housing on campus</label></td>
+			<td><input type="text" name="location_campus"></td>
+		</tr>
+		<tr>
+			<td><label>Enter clean</label></td>
+			<td><input type="radio" name="clean" value="yes">yes
+				<input type="radio" name="clean" value="no">no
+			</td>
+		</tr>
+		<tr>
+			<td><label>Enter clean scale (0-10)</label></td>
+			<td><input type="range" name="clean_scale" min="0" max="10"></td>
+		</tr>
+		<tr>
+			<td><label>Enter music preffence</label></td>
+			<td><input type="text" name="music_taste"></td>
+		</tr>
+		<tr>
+			<td><label>Enter music scale (0-10)</label></td>
+			<td><input type="range" name="music_scale" min="0" max="10"></td>
+		</tr>
+		<tr>
+			<td><label>Enter schedule</label></td>
+			<td><input type="radio" name="schedule" value="morning">Morning
+			<input type="radio" name="schedule" value="midday">Midday
+			<input type="radio" name="schedule" value="night">Night</td>
+		</tr>
+		<tr>
+			<td><label>Enter schedule scale (0-10)</label></td>
+			<td><input type="range" name="schedule_scale" min="0" max="10"></td>
+		</tr>
+		<tr>
+			<td><label>Enter guests tolerability</label></td>
+			<td><input type="radio" name="guests" value="yes">yes
+				<input type="radio" name="guests" value="no">no
+			</td>
+		</tr>
+		<tr>
+			<td><label>Enter guest tolerability scale (0-10)</label></td>
+			<td><input type="range" name="guests_scale" min="0" max="10"></td>
+		</tr>
+		<tr>
+			<td><label>Enter pets tolerability</label></td>
+			<td><input type="radio" name="pets">yes
+				<input type="radio" name="pets">no
+			</td>
+		</tr>
+		
+		<tr>
+			<td><label>Enter pets tolerability scale (0-10)</label></td>
+			<td><input type="range" name="pets_scale" min="0" max="10"></td>
+		</tr>
+		<!--<tr>
+			<td><label>Enter email</label></td>
+			<td><input type='email' name="email"></td>
+		</tr> -->
+		<tr>
+			
+			<td colspan="2" align="center"><input type="submit" name="save" value="submit" style="
+			font-size:20px"></td>
+		</tr>
+	</table>
+</form>
+</body>
+</html>

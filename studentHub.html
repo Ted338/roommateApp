@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Find a roommate</title>
+		<div style="float:left">
+			<img src="C:\xampp\htdocs\studentHubStuff\universityLogo.png"></img>
+		</div>	
+		<div style="float:left">
+			<H1>Find a roommate</H1><BR>
+		</div>
+		<BR>
+			<div style="float:right">
+			<iframe width="420" height="345" src="https://www.youtube.com/embed/_He9aVe4wY4" title="Residence Life" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			</div>
+		<BR>
+		<BR>
+		<BR>
+		<BR>
+		<H2> 
+			<ul>
+				<LI><a href="description">Description</a>
+				<LI><a href="relevent">Related photos</a>
+				<LI><a href="review">Reviews</a>
+			</ul>
+			University of Scranton<BR>
+		</H2>
+		<H3><a id = description> Description</a></H3>
+	</head>
+
+	<body>
+		
+		 
+		</p>
+		<div style="text-align: center;">
+			<figure>
+				<img src="C:\xampp\htdocs\studentHubStuff\dormRoomOne.jpg"></img>
+				<figcaption>An example of a dorm room on campus</figcaption>
+			</figure>
+		</div>
+		<div style="float:left">
+			<p>Options:
+			<img src="C:\xampp\htdocs\studentHubStuff\icon_download.png"></img>
+			<img src="C:\xampp\htdocs\studentHubStuff\icon_mail.png"></img>
+			<img src="C:\xampp\htdocs\studentHubStuff\icon_map.png"></img>
+			<img src="C:\xampp\htdocs\studentHubStuff\icon_up.png"></img>
+			<img src="C:\xampp\htdocs\studentHubStuff\iconDOwn.png"></img>
+			<!<img src="C:\bob\related-square1.jpg"></img>
+			</p>
+			<font size = 4>
+				<a id = relevent><B>Related Photos</B></p></a>
+			</font>
+			<a href="C:\xampp\localhost\htdocs\dormBuildingOne.jpg"><img src="C:\xampp\htdocs\studentHubStuff\dormBuildingOne.jpg"></img></a>
+			<a href="related-large2.jpg"><img src="related-square2.jpg"></img></a>
+			<a href="related-large3.jpg"><img src="related-square3.jpg"></img></a>
+			<font size = 4>
+				<p><B><a id = review>Reviews</B></p>
+			</font>
+			<p><b><img src="C:\xampp\htdocs\studentHubStuff\iconComment.png"></img> Ricardo on 2016-05-23</b></p>
+			<p>I found my roommate here.</p>
+			<HR>
+			<p><b><img src="C:\xampp\htdocs\studentHubStuff\iconComment.png"></img> Susan on 2016-11-18</b></p>
+			<p>This site is so easy and quick.</p>
+			<HR>
+		
+			<footer>
+				<p><a href="construction.htm">Home</a> | <a href="construction.htm">Browse</a> | <a href="construction.htm">Search</a></p>
+				<i> Copyright <span>&copy University of Scranton</i>
+			</footer>
+		</div>
+		<form action="detailsEntry.php" method="post">
+	<table border="1">
+		<tr>
+			<td><label>Enter Royal id</label></td>
+			<td><input type="text" name="student_id"></td>
+		</tr>
+		<tr>
+			<td><label>Enter first name</label></td>
+			<td><input type="text" name="student_namef"></td>
+		</tr>	
+		<tr>
+			<td><label>Enter last name</label></td>
+			<td><input type="text" name="student_namel"></td>
+		</tr>
+		<tr>
+			<td><label>Enter age</label></td>
+			<td><input type="number" name="age"></td>
+		</tr>
+		<tr>
+			<td><label>Enter gender</label></td>
+			<td><input type="radio" name="gender" value="male">Male
+			<input type="radio" name="gender" value="female">Female
+			<input type="radio" name="gender" value="non-binary">Non-Binary</td>
+		</tr>
+		<tr>
+			<td><label>Enter hometown</label></td>
+			<td><input type="text" name="location_home"></td>
+		</tr>
+		<tr>
+			<td><label>Enter housing on campus</label></td>
+			<td><input type="text" name="location_campus"></td>
+		</tr>
+		<tr>
+			<td><label>Enter clean</label></td>
+			<td><input type="radio" name="clean" value="yes">yes
+				<input type="radio" name="clean" value="no">no
+			</td>
+		</tr>
+		<tr>
+			<td><label>Enter clean scale (0-10)</label></td>
+			<td><input type="range" name="clean_scale" min="0" max="10"></td>
+		</tr>
+		<tr>
+			<td><label>Enter music preffence</label></td>
+			<td><input type="text" name="music_taste"></td>
+		</tr>
+		<tr>
+			<td><label>Enter music scale (0-10)</label></td>
+			<td><input type="range" name="music_scale" min="0" max="10"></td>
+		</tr>
+		<tr>
+			<td><label>Enter schedule</label></td>
+			<td><input type="radio" name="schedule" value="morning">Morning
+			<input type="radio" name="schedule" value="midday">Midday
+			<input type="radio" name="schedule" value="night">Night</td>
+		</tr>
+		<tr>
+			<td><label>Enter schedule scale (0-10)</label></td>
+			<td><input type="range" name="schedule_scale" min="0" max="10"></td>
+		</tr>
+		<tr>
+			<td><label>Enter guests tolerability</label></td>
+			<td><input type="radio" name="guests" value="yes">yes
+				<input type="radio" name="guests" value="no">no
+			</td>
+		</tr>
+		<tr>
+			<td><label>Enter guest tolerability scale (0-10)</label></td>
+			<td><input type="range" name="guests_scale" min="0" max="10"></td>
+		</tr>
+		<tr>
+			<td><label>Enter pets tolerability</label></td>
+			<td><input type="radio" name="pets">yes
+				<input type="radio" name="pets">no
+			</td>
+		</tr>
+		
+		<tr>
+			<td><label>Enter pets tolerability scale (0-10)</label></td>
+			<td><input type="range" name="pets_scale" min="0" max="10"></td>
+		</tr>
+		<tr>
+			
+			<td colspan="2" align="center"><input type="submit" name="save" value="submit" style="
+			font-size:20px"></td>
+		</tr>
+	</table>
+</form>
+	</body>
+</html>
